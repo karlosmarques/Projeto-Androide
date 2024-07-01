@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root {
+
+    --cor0: #3c515d;
+    --cor1: #3d6868;
+    --cor2: #40957f;
+    --cor3: #a7c686;
+    --cor4: #fcee8c;
+
+    --fonte-titulo:"Oswald", sans-serif;
+}
+
+
+
+body {
+    background-color:   bisque;
+}
+
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1),var(--cor2));
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    background-color: #3d6868;
+    margin-top: -25px;
+    margin-left: -10px;
+    margin-right: -10px;
+    color: #a7c686;
+    text-shadow: 2px 2px black;
+  
+}
+
+nav {
+    background-color: #3c515d;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+nav a {
+    text-decoration: none;
+    padding: 4px;
+    color:#a7c686;
+
+}
+
+a:hover {
+    transition-duration: 0.5s;
+    background-color: darkgreen;
+    padding: 5px;
+}
+
+main {
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: aliceblue;
+
+}
+
+main h1 {
+    margin: 0px;
+    background-image: linear-gradient(to right ,var(--cor0),var(--cor2));
+    padding: 4px;
+    border-radius: 10px;
+    color: #fcee8c;
+}
+
+main h2{
+    color: #a7c686;
+    background-image: linear-gradient(to right,var(--cor1),var(--cor2));
+    padding: 4px;
+    border-radius: 10px;
+    
+}
+main p{
+    text-indent: 15px;
+    text-align: justify;
+    line-height: 20px
+}
+#bug{
+    background-color: aliceblue;
+}
+.vd{
+    background-color: #3d6868;
+    margin: 0px -15px;
+    padding: 15px 2px;
+}
+
+main h3{
+    background-color: #40957f;
+    padding: 4px;
+    border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   box-shadow: 2px 2px rgb(95, 95, 95);
+}
+
+.lista{
+    background-color: #3d6868;
+    margin: -20px 0px;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 2px 2px rgb(95, 95, 95);
+}
+ul{
+    columns: 2;
+}
+.fim{
+    padding-top: 10px;
+}
+
+footer{
+    background-color: #3c515d;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: -9px;
+   margin-left: -9px;
+   margin-right: -9px;
+   padding: 2px;
+   color: #a7c686;
+
+}
+
